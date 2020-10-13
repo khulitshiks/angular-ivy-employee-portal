@@ -1,0 +1,37 @@
+
+<div class="container">
+<h3>BOARD OF DIRECTORS</h3>  
+<mat-card class="example-card" class="block" *ngFor="let employee of employeeArr">
+  
+
+
+    <span class="name">{{employee.name + " " + employee.surname}}</span>
+   <img mat-bcard-image src="{{employee.image}}" class="img"> 
+ 
+  <mat-card-content style="margin-bottom:0px">
+ 
+    <br>
+    <div class="block-text">
+    <span class="name-details">{{employee.position}}</span>
+    <br>
+    <span class="block-age">{{employee.age}}</span>
+
+     <mat-card-actions>
+    
+    <span class="update" routerLink="/update">Update</span>
+
+      <button mat-raised-button (click)="openDialog(employee)" class="delete" color="warn">Delete</button>
+  
+  </mat-card-actions>
+
+    </div>
+
+    </mat-card-content>
+
+
+  
+</mat-card>
+
+
+
+

@@ -1,0 +1,6 @@
+h3{text-align: center;font-size: 40px;font-family: monospace;font-style: italic;margin: 5px;}
+.content{margin-left:115px;display: block;width: 970px;padding: 10px;float: left;}
+.detail{padding: 10px;font-family: monospace;background: beige;font-size:20px}
+.detail-content{width:270px;display: block;float: left}
+.info{font-size:12px}
+.detail-name{background: black;color: white;padding: 19px;margin-left: -8px;position: relative;top: 11px;display: block;width: 138px;margin-top: -19px;}
